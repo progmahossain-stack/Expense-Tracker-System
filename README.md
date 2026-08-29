@@ -39,7 +39,7 @@ Expense-Tracker-System
 │   │   ├── frmCategory.cs             # 🏷️ Category Management
 │   │   └── frmDashboard.cs            # 📊 Reports and Dashboard
 │   │
-│   ├── Izvjestaji/                    # 📊 Reports and Dashboard module
+│   ├── Izvjesta                       # 📊 Reports and Dashboard module
 │   │   └── frmIzvjestaji.cs           # Generates daily/monthly reports
 │   │
 │   ├── Helpers/                      # Utility/helper classes
