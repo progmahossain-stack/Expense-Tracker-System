@@ -1,6 +1,6 @@
 # 💰 Expense Tracker System
 
-Welcome to the **Expense Tracker System** — a simple and practical desktop application built to help you record, organize and monitor your daily expenses with ease! 📊
+Welcome to the **Expense Tracker System** — a simple and practical desktop application built to help you record, organize and monitor your daily expenses easily.
 
 ## 🌟 Features
 
@@ -17,31 +17,42 @@ Welcome to the **Expense Tracker System** — a simple and practical desktop app
 - **Database:** Microsoft SQL Server
 - **IDE:** Microsoft Visual Studio
 - **Version Control:** Git & GitHub
-## 📂 Project Structure
 
-```
-Expense-Tracker-System/
+## 📂 Project Struture
+Expense-Tracker-System
 │
-├── FIT.Data/                  # Data models (Expense, User, Category, etc.)
-├── FIT.Infrastructure/        # Database context and infrastructure logic
-├── FIT.WinForms/               # Windows Forms UI (main application)
-│   ├── Forms/                  # All application forms
-│   │   ├── frmLogin.cs         # User login screen
-│   │   ├── frmRegister.cs      # User registration screen
-│   │   ├── frmExpense.cs       # Add/edit expense screen
-│   │   ├── frmCategory.cs      # Manage expense categories
-│   │   ├── frmDelete.cs        # Delete expense confirmation
-│   │   └── frmDashboard.cs     # Dashboard with reports and summaries
-│   ├── Helpers/                # Utility/helper classes
-│   ├── Izvjestaji/             # Reports module
-│   ├── Resources/              # Icons and images used in the app
-│   └── Program.cs              # Application entry point
-├── imgs/                       # App icons and logo images
-├── screenshots/                # Screenshots of the running app
-├── .gitignore                  # Files/folders excluded from Git
-├── BUDGET.sln                  # Visual Studio solution file
-└── README.md                   # Project documentation
-```
+├── FIT.Data/                        # Data models
+│   ├── User.cs                       # User Authentication data
+│   ├── Expense.cs                    # Expense Management data
+│   ├── BudgetCategory.cs             # Category Management data
+│   └── Vrijednosti.cs                # Shared values/constants
+│
+├── FIT.Infrastructure/              # Database connection & context
+│   └── BUDGETDbContext.cs            # Handles all database operations
+│
+├── FIT.WinForms/                    # Main application (UI)
+│   ├── Forms/
+│   │   ├── frmLogin.cs                # 🔐 User Authentication - Login
+│   │   ├── frmRegister.cs             # 🔐 User Authentication - Register
+│   │   ├── frmExpense.cs              # ➕ Expense Management - Add/Edit
+│   │   ├── frmDelete.cs               # ➕ Expense Management - Delete
+│   │   ├── frmCategory.cs             # 🏷️ Category Management
+│   │   └── frmDashboard.cs            # 📊 Reports and Dashboard
+│   │
+│   ├── Izvjestaji/                    # 📊 Reports and Dashboard module
+│   │   └── frmIzvjestaji.cs           # Generates daily/monthly reports
+│   │
+│   ├── Helpers/                      # Utility/helper classes
+│   ├── Resources/                    # Icons and images
+│   └── Program.cs                    # Application entry point
+│
+├── imgs/                             # App logo and icons
+├── screenshots/                      # Screenshots of the running app
+├── .gitignore
+├── BUDGET.sln                        # Visual Studio solution file
+└── README.md
+
+
 ## 📋 Project Info
 
 - **Course:** Software Engineering
