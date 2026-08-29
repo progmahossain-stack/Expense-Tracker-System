@@ -56,7 +56,7 @@ Expense-Tracker-System
 ## 📋 Project Info
 
 - **Course:** Software Engineering
-- **Semester:** Summer 2025-2026, Section C, Group No -05
+- **Semester:** Summer 2025-2026, Section C, Group No .05
 - **Supervised By:** Farzana Bente Alam
 
 ## 👥 Team Members
