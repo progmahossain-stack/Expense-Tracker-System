@@ -1,7 +1,3 @@
-# Expense-Tracker-System
-Expense management branch in progress
-Caregory management branch in progress
-Reports and dashboard branch in progress
 # 💰 Expense Tracker System
 
 Welcome to the **Expense Tracker System** — a simple and practical desktop application built to help you record, organize and monitor your daily expenses with ease! 📊
@@ -21,7 +17,31 @@ Welcome to the **Expense Tracker System** — a simple and practical desktop app
 - **Database:** Microsoft SQL Server
 - **IDE:** Microsoft Visual Studio
 - **Version Control:** Git & GitHub
+## 📂 Project Structure
 
+```
+Expense-Tracker-System/
+│
+├── FIT.Data/                  # Data models (Expense, User, Category, etc.)
+├── FIT.Infrastructure/        # Database context and infrastructure logic
+├── FIT.WinForms/               # Windows Forms UI (main application)
+│   ├── Forms/                  # All application forms
+│   │   ├── frmLogin.cs         # User login screen
+│   │   ├── frmRegister.cs      # User registration screen
+│   │   ├── frmExpense.cs       # Add/edit expense screen
+│   │   ├── frmCategory.cs      # Manage expense categories
+│   │   ├── frmDelete.cs        # Delete expense confirmation
+│   │   └── frmDashboard.cs     # Dashboard with reports and summaries
+│   ├── Helpers/                # Utility/helper classes
+│   ├── Izvjestaji/             # Reports module
+│   ├── Resources/              # Icons and images used in the app
+│   └── Program.cs              # Application entry point
+├── imgs/                       # App icons and logo images
+├── screenshots/                # Screenshots of the running app
+├── .gitignore                  # Files/folders excluded from Git
+├── BUDGET.sln                  # Visual Studio solution file
+└── README.md                   # Project documentation
+```
 ## 📋 Project Info
 
 - **Course:** Software Engineering
