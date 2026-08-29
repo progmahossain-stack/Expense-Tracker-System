@@ -18,7 +18,7 @@ Welcome to the **Expense Tracker System** — a simple and practical desktop app
 - **IDE:** Microsoft Visual Studio
 - **Version Control:** Git & GitHub
 
-## 📂 Project Struture
+## 📂 Project Structure
 Expense-Tracker-System
 │
 ├── FIT.Data/                        # Data models
@@ -39,7 +39,7 @@ Expense-Tracker-System
 │   │   ├── frmCategory.cs             # 🏷️ Category Management
 │   │   └── frmDashboard.cs            # 📊 Reports and Dashboard
 │   │
-│   ├── Izvjesta                       # 📊 Reports and Dashboard module
+│   ├── Izvjestaji/                    # 📊 Reports and Dashboard module
 │   │   └── frmIzvjestaji.cs           # Generates daily/monthly reports
 │   │
 │   ├── Helpers/                      # Utility/helper classes
